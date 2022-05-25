@@ -1,0 +1,42 @@
+.logo-container {
+    z-index: 0;
+    width: 400px;
+    height: 400px;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 10%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+  
+  
+    .solid-logo {
+      position: absolute;
+      top: auto;
+      right: auto;
+      bottom: auto;
+      left: 0;
+      margin: auto;
+      width: 100%;
+      opacity: 0;
+      z-index: 1;
+      animation-name: pendulum;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+      animation-duration: 10s;
+      transform-style: preserve-3d;
+      transform-origin: 100px 100px 0;
+      margin-left: calc(50% - 100px);
+    }
+  }
+
+  @keyframes pendulum {
+    from,
+    to {
+      transform: rotateX(-80deg)  rotateZ(80deg);
+    }
+    66% {
+      transform: rotateX(75deg) rotateZ(-75deg);
+    }
+  }
