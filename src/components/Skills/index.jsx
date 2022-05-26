@@ -29,7 +29,7 @@ const Skill = () => {
           <h2>Web and blockchain technologies</h2>
           <h3>CTO <a href='https://bitkova.com' rel="noreferrer" target={"_blank"}>BITKOVA ACADEMY</a></h3>
           <p>
-            Experienced web and smart contract developer with focus in the latest web technologies such as&nbsp;
+            Experienced web and smart contract developer with focus in the latest technologies such as&nbsp;
             <span class="tech-tag">HTML5</span>,&nbsp;
             <span class="tech-tag">CSS3</span>,&nbsp;
             <span class="tech-tag">JavaScript</span>,&nbsp;
