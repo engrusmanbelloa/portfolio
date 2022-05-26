@@ -42,7 +42,7 @@ const Home = () => {
             />
             </h1>
             <h2>Fullstack developer | Web3 professional | Marketing manager</h2>
-            <div class="contact-me">
+            <div className="contact-me">
               <h3>Get In Touch</h3>
               <h4>If you love coffe as much as i do.</h4>
               <p className="contact-message">
