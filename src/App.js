@@ -1,4 +1,5 @@
 import { Route, Routes } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
 import "./App.scss"
 import "./index.css"
 import Layout from "./components/Layout"
@@ -8,9 +9,10 @@ import Contact from "./components/Contact"
 import Skill from "./components/Skills"
 
 function App() {
+  const history = createBrowserHistory();
   return (
     <div>
-      <Routes>
+      <Routes history={history}>
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
@@ -18,8 +20,8 @@ function App() {
           <Route path="/skill" element = {<Skill/>} />
         </Route>
       </Routes>
-      hacks
     </div>
+    
   );
 }
 

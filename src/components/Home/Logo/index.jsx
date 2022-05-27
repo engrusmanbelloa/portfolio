@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect, useRef } from 'react'
-import gsap from 'gsap-trial'
-import DrawSVGPlugin from 'gsap-trial/DrawSVGPlugin'
+import gsap from 'gsap'
+import DrawSVGPlugin from "gsap"
 import LogoS from '../../../assets/images/btc.png'
 import './index.scss'
 
