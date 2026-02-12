@@ -1,115 +1,45 @@
-.page{
-    width: 100%;
-    height: 100%;
-    position: absolute;
+// src/components/Layout/index.scss
+.App {
+  display: flex;
+  min-height: 100vh;
+  background: #0b0e14;
 }
 
-.top-tags {
-    bottom: auto;
-    top: 35px;
+.main-content {
+  flex: 1;
+  margin-left: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: 768px) {
+    margin-left: 0;
+    padding-bottom: 65px; // Space for bottom dock
+  }
 }
 
 .tags {
-    color: #FFEBC1;
-    opacity: 0.7;
-    position: absolute;
-    bottom: 0%;
-    left: 7%;
-    font-size: 18px;
-    font-family: "La Belle Aurore";
+  color: #ffebc1;
+  opacity: 0.3;
+  position: absolute;
+  font-family: "La Belle Aurore";
+  font-size: 18px;
+  pointer-events: none;
 
-}
-
-.bottom-tag-html {
-    margin-left: -20px;
-}
-
-.container{
-    width: 100%;
-    will-change: contents;
-    height: 90%;
-    min-height: 566px;
-    position: absolute;
-    opacity: 0;
-    top: 5%;
-    margin: 0 auto;
-    z-index: 1;
-    transform-style: preserve-3d;
-    animation: fadeIn 1s forwards;
-    animation-delay: 1s;
-}
-
-
-.contact-page,
-.about-page, .skills {
-  .text-zone {
-    text-align: left;
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 35%;
-    vertical-align: middle;
-    display: table-cell;
-    max-height: 90%;
-
-    h1 {
-      font-size: 53px;
-      font-family: 'Coolvetica';
-      color: #fff;
-      font-weight: 400;
-      margin-top: 20px;
-      position: relative;
-      margin-bottom: 40px;
-      left: -10px;
-
-      &:before {
-        content: '<h1>';
-        font-family: 'La Belle Aurore', cursive;
-        color: #FFEBC1;
-        font-size: 18px;
-        position: absolute;
-        margin-top: -10px;
-        left: -10px;
-        opacity: 0.6;
-        line-height: 18px;
-      }
-      &:after {
-        content: '<h1/>';
-        font-family: 'La Belle Aurore', cursive;
-        color: #FFEBC1;
-        font-size: 18px;
-        line-height: 18px;
-        position: absolute;
-        left: -30px;
-        bottom: -20px;
-        margin-left: 20px;
-        opacity: 0.6;
-      }
-    }
-
-    p {
-      text-align:initial;
-      font-size: 14px;
-      color: #fff;
-      font-family: sans-serif;
-      font-weight: 300;
-      max-width: fit-content;
-      animation: pulse 1s;
-      &:nth-of-type(1) {
-        animation-delay: 1.1s;
-      }
-      &:nth-of-type(2) {
-        animation-delay: 1.2s;
-      }
-      &:nth-of-type(3) {
-        animation-delay: 1.3s;
-      }
-    }
+  &.top-tags {
+    top: 30px;
+    left: 40px;
   }
-  .text-animate-hover {
-    &:hover {
-      color: #FFEBC1;
-    }
+  &.bottom-tags {
+    bottom: 30px;
+    left: 40px;
   }
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  z-index: 2;
 }

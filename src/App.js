@@ -1,5 +1,5 @@
+// src/App.js
 import { Route, Routes } from 'react-router-dom';
-import { createBrowserHistory } from 'history';
 import "./App.scss"
 import "./index.css"
 import Layout from "./components/Layout"
@@ -8,21 +8,36 @@ import About from "./components/About"
 import Contact from "./components/Contact"
 import Skill from "./components/Skills"
 
-function App() {
-  const history = createBrowserHistory();
-  return (
-    <div>
-      <Routes history={history}>
-        <Route path='/' element={<Layout/>}>
-          <Route index element={<Home/>}/>
-          <Route path='/about' element={<About/>}/>
-          <Route path="/contact" element={<Contact/>} />
-          <Route path="/skill" element = {<Skill/>} />
-        </Route>
-      </Routes>
-    </div>
+// function App() {
+//   const history = createBrowserHistory();
+//   return (
+//     <div>
+//       <Routes history={history}>
+//         <Route path='/' element={<Layout/>}>
+//           <Route index element={<Home/>}/>
+//           <Route path='/about' element={<About/>}/>
+//           <Route path="/contact" element={<Contact/>} />
+//           <Route path="/skill" element = {<Skill/>} />
+//         </Route>
+//       </Routes>
+//     </div>
     
-  );
-}
+//   );
+// }
 
-export default App;
+// export default App;
+
+export default function App() {
+
+  return (
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="contact" element={<Contact />} />
+        <Route path="skill" element={<Skill />} />
+      </Route>
+    </Routes>
+  );
+};
+

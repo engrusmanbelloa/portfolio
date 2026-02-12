@@ -1,3 +1,4 @@
+// src/components/Skills/index.jsx
 import React, { useEffect, useState } from 'react'
 import "./index.scss";
 import AnimatedLetters from '../AnimatedLetters';

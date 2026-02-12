@@ -1,3 +1,4 @@
+// src/components/Skills/canvass.jsx
 import React, { useEffect, useRef } from "react"
 
 const Canvass = (props) => {

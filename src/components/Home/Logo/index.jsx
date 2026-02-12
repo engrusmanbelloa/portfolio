@@ -1,11 +1,10 @@
-import React from 'react'
+// src/components/Home/Logo/index.jsx
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import DrawSVGPlugin from "gsap"
 import LogoS from '../../../assets/images/btc.png'
 import './index.scss'
-
-const Logo = () => {
+export default function Logo() {
     const bgRef = useRef()
     const solidLogoRef = useRef()
 
@@ -43,6 +42,4 @@ const Logo = () => {
   </div>
 
   )
-}
-
-export default Logo
+};
