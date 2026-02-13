@@ -12,9 +12,9 @@ export default function Sphere() {
 
     const container = '.tagcloud';
     const texts = [
-      'Solidity', 'Ethereum', 'React', 'NodeJS',
-      'Go', 'Web3.js', 'Ethers.js', 'Hardhat',
-      'EVM', 'ERC-4337', 'MongoDB', 'Python',
+      'Solidity', 'Ethereum', 'React', 'Next.js', 'NodeJS',
+      'Ethers.js', 'Foundry',
+      'EVM', 'ERC-4337', 'MongoDB', 'Firebase', 'Python',
       'Express', 'Sass', 'Git', 'Mocha'
     ];
 

@@ -1,38 +1,82 @@
 // src/components/Skills/index.scss
-.skills {
-  h2 {
-    font-weight: 1000;
-    font-size: 25px;
-    letter-spacing: 1.5px;
-    font-family: "Helvetica";
-    color: #fff;
-    margin-top: 10px;
-  }
-  .tech-tag {
-    color: #d7a86e;
-  }
-  h3 {
-    font-size: 20px;
-    a {
-      text-decoration: none;
-      color: #d7a86e;
+.skills-page {
+  .experience-block {
+    margin-bottom: 30px;
+
+    h2 {
+      font-size: 24px;
+      color: #ffebc1;
+      font-family: "Coolvetica";
+      margin-bottom: 10px;
     }
   }
-}
-// .skills-chart{
-// }
 
-.canvas {
-  width: 50%;
-  height: 85%;
-  position: absolute;
-  right: 15px;
-  top: 10%;
-  bottom: -15%;
-  overflow: hidden;
-  overflow-wrap: break-word;
+  .tech-tag {
+    color: #00f0a0;
+    font-weight: bold;
+  }
 
-  &:hover {
-    animation-play-state: paused;
+  .skills-visual {
+    flex: 1;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 768px) {
+      height: 300px;
+      width: 100%;
+      display: none; /* Hide on mobile */
+    }
+  }
+
+  .tagcloud {
+    display: inline-block;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+
+    // Individual word styling
+    .tagcloud--item {
+      color: #00f0a0;
+      cursor: default;
+      transition: color 0.3s;
+
+      &:hover {
+        color: #ffebc1;
+        text-shadow: 0 0 10px #ffebc1;
+      }
+    }
+    @media (max-width: 768px) {
+      font-size: 14px;
+    }
+  }
+  .experience-block {
+    margin-bottom: 40px;
+    animation: fadeIn 1s forwards;
+
+    h2 {
+      font-family: "Coolvetica";
+      color: #ffebc1;
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+      font-size: 18px;
+      color: #8d8d8d;
+      margin-bottom: 15px;
+
+      a {
+        color: #00f0a0;
+        text-decoration: none;
+        border-bottom: 1px solid transparent;
+        transition: 0.3s;
+        &:hover {
+          border-bottom: 1px solid #00f0a0;
+        }
+      }
+    }
   }
 }

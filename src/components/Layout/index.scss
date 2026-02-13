@@ -1,3 +1,4 @@
+// src/components/Layout/index.scss
 .App {
   display: flex;
   min-height: 90vh;
@@ -51,6 +52,15 @@
   transform-style: preserve-3d;
   animation: fadeIn 1s forwards;
   animation-delay: 1s;
+}
+
+.home-page,
+.about-page,
+.skills-page {
+  top: 20%;
+  @media (max-width: 768px) {
+    top: 10%;
+  }
 }
 
 .flex-layout {
@@ -143,14 +153,14 @@
   }
 }
 
-.contact-page,
+.contact-page
 // .about-page,
-.skills {
+{
   .text-zone {
     text-align: left;
     position: absolute;
     // left: 10%;
-    // top: 50%;
+    top: 50%;
     transform: translateY(-50%);
     width: 35%;
     vertical-align: middle;
