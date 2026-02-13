@@ -29,7 +29,7 @@ export default function Home() {
                             <img src={LogoTitle} alt="B" />
                             <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={15} />
                             <br />
-                            <span className="job-title">Web3 Infra Engineer</span>
+                            <span className="job-title">Web3 Infrastructure Engineer</span>
                         </h1>
 
                         <h2 className="sub-heading">Middleware • Automation • Gasless UX</h2>

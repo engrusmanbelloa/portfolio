@@ -4,9 +4,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 2rem;
+    gap: 20px;
 
-    @media (max-width: 992px) {
+    @media (max-width: 768px) {
       flex-direction: column-reverse;
       text-align: center;
     }
@@ -14,6 +14,10 @@
 
   .text-zone {
     flex: 1;
+    margin-left: 7%;
+    @media (max-width: 768px) {
+      margin-left: 0;
+    }
     h1 {
       font-size: clamp(40px, 8vw, 65px);
       color: #fff;
@@ -21,7 +25,7 @@
 
       img {
         width: 45px;
-        margin: 0 10px;
+        margin: 0 0 0 10px;
       }
     }
 
@@ -33,7 +37,7 @@
       color: #8d8d8d;
       letter-spacing: 3px;
       font-size: 1.1rem;
-      margin: 20px 0;
+      margin: 10px 0 20px;
     }
 
     .tech-list {
@@ -56,9 +60,8 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    @media (max-width: 992px) {
-      height: 300px;
-      width: 100%;
+    @media (max-width: 768px) {
+      display: none;
     }
   }
 
@@ -69,6 +72,7 @@
     text-decoration: none;
     padding: 12px 24px;
     border: 1px solid #ffebc1;
+    border-radius: 12px;
     display: inline-block;
     margin-top: 30px;
     transition: 0.3s;
