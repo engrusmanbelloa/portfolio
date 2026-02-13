@@ -4,37 +4,6 @@
   @media (max-width: 768px) {
     top: 10%;
   }
-  .flex-layout {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0px;
-
-    @media (max-width: 768px) {
-      flex-direction: column-reverse;
-      text-align: center;
-      padding: 10px;
-    }
-  }
-
-  .text-zone {
-    flex: 1;
-    margin-left: 7%;
-    @media (max-width: 768px) {
-      margin-left: 0;
-    }
-
-    p {
-      font-size: 16px;
-      color: #fff;
-      font-family: "Inter", sans-serif;
-      font-weight: 300;
-      line-height: 1.6;
-      margin-bottom: 20px;
-      opacity: 0.8;
-      animation: fadeIn 1s forwards;
-    }
-  }
 
   .stage-cube-cont {
     flex: 1;

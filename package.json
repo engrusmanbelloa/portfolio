@@ -28,6 +28,7 @@
     "react-scripts": "5.0.1",
     "sass": "^1.52.1",
     "save-dev": "^0.0.1-security",
+    "TagCloud": "^2.5.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -1,64 +1,29 @@
 // src/components/Home/index.scss
 .home-page {
-  .flex-layout {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 0px;
-
+  .job-title {
+    color: #ffebc1;
+  }
+  .sub-heading {
+    color: #8d8d8d;
+    letter-spacing: 3px;
+    font-size: 14px;
+    margin: 10px 0 20px;
     @media (max-width: 768px) {
-      flex-direction: column-reverse;
-      text-align: center;
-      padding: 10px;
+      font-size: 12px;
     }
   }
 
-  .text-zone {
-    flex: 1;
-    margin-left: 7%;
-    @media (max-width: 768px) {
-      margin-left: 0;
-    }
-    h1 {
-      font-size: clamp(40px, 8vw, 65px);
-      color: #fff;
-      font-family: "Coolvetica";
-
-      img {
-        width: 45px;
-        margin: 0 0 0 10px;
-        @media (max-width: 768px) {
-          width: 35px;
-        }
-      }
-    }
-
-    .job-title {
-      color: #ffebc1;
-    }
-
-    .sub-heading {
-      color: #8d8d8d;
-      letter-spacing: 3px;
+  .tech-list {
+    list-style: none;
+    padding: 0;
+    li {
+      font-family: "Courier New", monospace;
+      color: #00f0a0;
       font-size: 14px;
-      margin: 10px 0 20px;
-      @media (max-width: 768px) {
-        font-size: 12px;
-      }
-    }
-
-    .tech-list {
-      list-style: none;
-      padding: 0;
-      li {
-        font-family: "Courier New", monospace;
-        color: #00f0a0;
-        font-size: 14px;
-        margin: 5px 0;
-        span {
-          opacity: 0.5;
-          margin-right: 10px;
-        }
+      margin: 5px 0;
+      span {
+        opacity: 0.5;
+        // margin-right: 10px;
       }
     }
   }
