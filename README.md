@@ -1,71 +1,105 @@
-# Getting Started with Create React App
+This README is designed to match your new professional persona as a **Web3 Infrastructure Engineer**. It focuses on the technical stack, the modern architecture we implemented, and your specific domain expertise.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Usman Bello | Web3 Infrastructure Engineer 🚀
 
-In the project directory, you can run:
+A modern, high-performance portfolio website built with **React**, **GSAP**, and **SCSS**. This project showcases a transition from a legacy absolute-positioning layout to a fluid, responsive, and "Web3-branded" digital identity.
 
-### `npm start`
+## 🛠 Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend:** React (Hooks, Functional Components)
+- **Styling:** SCSS (Modular & Responsive Grid)
+- **Animation:** GSAP (GreenSock), Animate.css, and Framer-inspired transitions
+- **Visuals:** `@tsparticles/react` (Network Background), `TagCloud` (3D Stack Sphere)
+- **Maps:** React-Leaflet (Custom Inverted Dark Theme)
+- **Contact:** EmailJS integration for serverless messaging
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Key Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Modernized Layout Architecture
 
-### `npm run build`
+- **Responsive Dock:** A smart sidebar that acts as a fixed vertical nav on Desktop and transforms into a glassmorphic bottom-dock on Mobile for better UX.
+- **Fluid Content Grid:** Replaced fixed `absolute` heights and widths with a flexible `flex-layout` system that handles all screen sizes perfectly.
+- **Glassmorphism UI:** Interactive elements (Contact form, 3D Cube faces) utilize `backdrop-filter` for a modern, sleek aesthetic.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2. Infrastructure Branding
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **3D Tech Sphere:** An interactive tag cloud displaying core competencies in Solidity, EVM, and Middleware.
+- **Code-Styled Decor:** Floating HTML tags (`<body>`, `<h1>`, etc.) implemented via SCSS pseudo-elements to emphasize the "Engineer" persona.
+- **Dark Tech Theme:** A specialized color palette featuring **Emerald Green** (`#00f0a0`) and **Champagne Gold** (`#ffebc1`).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. Interactive Components
 
-### `npm run eject`
+- **Particle Background:** A customized node-and-link network visualization using `tsparticles`.
+- **3D Spin Cube:** A CSS-driven 3D cube showcasing the core development stack.
+- **Animated Letters:** Custom character-by-character entrance animations for headings.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📂 Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```text
+src/
+ ┣ assets/            # Logos, Images, and Global Styles
+ ┣ components/
+ ┃ ┣ Home/            # Hero section with 3D Logo
+ ┃ ┣ About/           # Professional bio & 3D CSS Cube
+ ┃ ┣ Skills/          # 3D TagCloud & Experience breakdown
+ ┃ ┣ Contact/         # EmailJS Form & Dark-themed Map
+ ┃ ┣ Sidebar/         # Responsive navigation (Desktop/Mobile)
+ ┃ ┗ Layout/          # The global wrapper (Tags, Particles, Grid)
+ ┗ App.js             # React Router logic
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. **Clone the repository**
 
-### Code Splitting
+```bash
+git clone https://github.com/engrusmanbelloa/portfolio.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
 
-### Analyzing the Bundle Size
+2. **Install dependencies**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
 
-### Making a Progressive Web App
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. **Environment Setup**
+   Create a `.env` file for your EmailJS credentials:
 
-### Advanced Configuration
+```env
+REACT_APP_EMAILJS_SERVICE_ID=your_service_id
+REACT_APP_EMAILJS_TEMPLATE_ID=your_template_id
+REACT_APP_EMAILJS_PUBLIC_KEY=your_public_key
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
 
-### Deployment
+4. **Run Development Server**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm start
 
-### `npm run build` fails to minify
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# portfolio
+---
+
+## 👨‍💻 Author
+
+**Bello Usman Abdullahi**
+
+- **Role:** Web3 Infrastructure Engineer
+- **Focus:** Middleware, Account Abstraction, and Gasless UX.
+- **LinkedIn:** [usmanbelloa](https://www.linkedin.com/in/usmanbelloa)
+
+---
+
+**Would you like me to help you add a "Projects" section to this README that highlights your specific work on the BNB Chain or your research in Post-Quantum Cryptography?**
