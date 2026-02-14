@@ -101,5 +101,3 @@ npm start
 - **LinkedIn:** [usmanbelloa](https://www.linkedin.com/in/usmanbelloa)
 
 ---
-
-**Would you like me to help you add a "Projects" section to this README that highlights your specific work on the BNB Chain or your research in Post-Quantum Cryptography?**
