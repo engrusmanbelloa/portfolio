@@ -38,20 +38,22 @@
   }
 
   .flat-button {
+    background: transparent;
     color: #ffebc1;
-    font-size: 13px;
-    letter-spacing: 4px;
-    text-decoration: none;
-    padding: 12px 24px;
     border: 1px solid #ffebc1;
-    border-radius: 12px;
+    padding: 12px 30px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 8px;
+    text-decoration: none;
     display: inline-block;
     margin-top: 30px;
     transition: 0.3s;
     &:hover {
       background: #ffebc1;
       color: #0b0e14;
-      box-shadow: 0 0 15px #ffebc1;
+      box-shadow: 0 0 15px rgba(255, 235, 193, 0.4);
     }
   }
 }
