@@ -1,5 +1,3 @@
-This README is designed to match your new professional persona as a **Web3 Infrastructure Engineer**. It focuses on the technical stack, the modern architecture we implemented, and your specific domain expertise.
-
 ---
 
 # Usman Bello | Web3 Infrastructure Engineer 🚀
