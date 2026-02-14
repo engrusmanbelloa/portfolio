@@ -1,6 +1,6 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import { faEthereum, faReact, faNodeJs, faJsSquare, faPython } from '@fortawesome/free-brands-svg-icons'
+import { faEthereum, faReact, faNodeJs, faJsSquare } from '@fortawesome/free-brands-svg-icons'
 import { faCubes, faShieldHalved } from '@fortawesome/free-solid-svg-icons'
 import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'

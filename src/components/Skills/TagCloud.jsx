@@ -4,7 +4,7 @@ import TagCloud from 'TagCloud';
 import './index.scss';
 
 export default function Sphere() {
-  const containerRef = useRef(null);
+  // const containerRef = useRef(null);
   const isInitialized = useRef(false);
 
   useEffect(() => {

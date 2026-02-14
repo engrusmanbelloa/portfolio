@@ -77,9 +77,9 @@ export default function Contact() {
               <span>usmanbelloa@gmail.com</span>
             </div>
             <div className="map-wrap">
-              <MapContainer center={[10.283333, 11.166667]} zoom={10}>
+              <MapContainer center={[9.0413667, 7.3442594]} zoom={10}>
                 <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                <Marker position={[10.283333, 11.166667]}>
+                <Marker position={[9.0413667, 7.3442594]}>
                   <Popup>Bello Usman lives here, come over for a cup of coffee :)</Popup>
                 </Marker>
               </MapContainer>
