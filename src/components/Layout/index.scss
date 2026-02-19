@@ -2,6 +2,10 @@
 .App {
   display: flex;
   min-height: 90vh;
+
+  @media (max-width: 768px) {
+    height: 100%;
+  }
 }
 
 .main-content {
@@ -13,13 +17,20 @@
 
   @media (max-width: 768px) {
     margin-left: 0;
-    padding-bottom: 0; // Space for bottom dock
+    padding-bottom: 0;
   }
 }
 .content-wrapper {
   width: 100%;
   max-width: 1200px;
   z-index: 2;
+  @media (max-width: 768px) {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .tags {
   color: #ffebc1;
@@ -42,11 +53,9 @@
 .container {
   width: 100%;
   will-change: contents;
-  height: 90%;
   min-height: 566px;
   position: absolute;
   opacity: 0;
-  top: 5%;
   margin: 0 auto;
   z-index: 1;
   transform-style: preserve-3d;
