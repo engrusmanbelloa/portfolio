@@ -10,6 +10,7 @@
     margin: 10px 0 20px;
     @media (max-width: 768px) {
       font-size: 12px;
+      margin-bottom: 10px;
     }
   }
 
@@ -23,7 +24,6 @@
       margin: 5px 0;
       span {
         opacity: 0.5;
-        // margin-right: 10px;
       }
     }
   }
@@ -54,6 +54,13 @@
       background: #ffebc1;
       color: #0b0e14;
       box-shadow: 0 0 15px rgba(255, 235, 193, 0.4);
+    }
+    @media (max-width: 768px) {
+      padding: 10px;
+      width: 40%;
+      letter-spacing: 1px;
+      font-weight: 300;
+      margin-top: 15px;
     }
   }
 }
