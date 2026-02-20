@@ -52,7 +52,7 @@ export default function Contact() {
             <p>
               I am open to infrastructure architecture roles, Web3 middleware 
               contracts, or freelance engineering. If you have questions about 
-              gasless UX or node automation, drop a message below.
+              gasless UX or automation, drop a message below.
             </p>
             <div className="contact-form">
               <form ref={form} onSubmit={sendEmail}>

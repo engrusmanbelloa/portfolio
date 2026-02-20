@@ -35,11 +35,11 @@ export default function About() {
           </p>
           <p>
             With a background in Post-Quantum Cryptography research, I approach 
-            infrastructure with a security-first mindset, ensuring that the 
+            infrastructure with a security first mindset, ensuring that the 
             systems I build today are resilient against future threats.
           </p>
           <p>
-            I'm a naturally curious problem-solver, a tech-obsessed father, 
+            I'm a naturally curious problem solver, a tech obsessed father, 
             and a firm believer that the best middleware is the kind that 
             developers never have to worry about.
           </p>
