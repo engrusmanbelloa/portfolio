@@ -15,7 +15,7 @@ export default function Sphere() {
       'Solidity', 'Ethereum', 'React', 'Next.js', 'NodeJS',
       'Ethers.js', 'Foundry',
       'EVM', 'ERC-4337', 'MongoDB', 'Firebase', 'Python',
-      'Express', 'Sass', 'Git', 'Mocha'
+      'Express', 'Sass', 'Git', 'Mocha', 'REST APIs', 'TypeScript', 'HTML', 'CSS',
     ];
 
     const options = {

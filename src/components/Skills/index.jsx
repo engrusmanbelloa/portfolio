@@ -38,9 +38,9 @@ export default function Skills() {
             <div className="experience-block">
               <h2>Full Stack Stack</h2>
               <p>
-                Building event-driven backends with <span className="tech-tag">Node.js</span>, &thinsp;
+                Building event-driven backends with <span className="tech-tag">Node.js</span>, <span className="tech-tag">REST APIs</span>, &thinsp;
                 <span className="tech-tag">Firebase</span>, and <span className="tech-tag">MongoDB</span>, 
-                integrated with high-performance <span className="tech-tag">NextJs</span>, and <span className="tech-tag">React Native</span> frontends.
+                integrated with high performance <span className="tech-tag">NextJs</span>, and <span className="tech-tag">React Native</span> frontends.
               </p>
             </div>
           </div>
